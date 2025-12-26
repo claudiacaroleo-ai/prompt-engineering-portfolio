@@ -4,7 +4,7 @@ This file defines a small set of Italian-language tasks used to compare prompt p
 
 ## Task 1 – summarization
 Input:
-Un articolo di giornale che descrive una nuova legge ambientale approvata dal parlamento italiano.
+An Italian news article describing a new environmental law approved by the national parliament.
 
 Expected qualities:
 - Clear structure
@@ -13,7 +13,7 @@ Expected qualities:
 
 ## Task 2 – classification
 Input:
-Una breve recensione online di un ristorante.
+A short Italian online review of a restaurant.
 
 Expected qualities:
 - Correct sentiment (positive, neutral, negative)
@@ -21,7 +21,7 @@ Expected qualities:
 
 ## Task 3 – reasoning
 Input:
-Un breve scenario che descrive un problema quotidiano (es. organizzare un viaggio con vincoli di budget).
+A short Italian scenario describing an everyday problem (e.g. planning a trip with budget constraints).
 
 Expected qualities:
 - Logical steps
