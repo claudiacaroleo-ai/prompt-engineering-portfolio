@@ -7,14 +7,14 @@ Summarization – Prompt A vs Prompt B
 ChatGPT (web interface)
 
 ## Evaluation summary
-| Criterion           | Prompt A | Prompt B | Notes |
-|---------------------|----------|----------|-------|
-| Clarity             | Medium   | High     | Prompt B is more structured |
-| Factual consistency | High     | High     | No hallucinations observed |
-| Task alignment      | Medium   | High     | Prompt B respects constraints |
+| Criterion           | Prompt A | Prompt B | Notes                            |
+| ------------------- | -------- | -------- | -------------------------------- |
+| Clarity             | High     | High     | Both outputs are easy to read    |
+| Factual consistency | High     | High     | No hallucinations observed       |
+| Task alignment      | Medium   | High     | Prompt A changes output language |
 
 ## Observations
-Prompt B produces a clearer and more controlled summary, with more consistent structure and length across runs, while Prompt A shows higher variability.
+Prompt B produces a more controlled and context-aligned summary, preserving the original language and maintaining a neutral, institutional tone. Prompt A is semantically accurate and well-structured, but switches to English and adopts a more narrative style, making it less aligned with the original task context. Overall, Prompt B prioritizes consistency and constraint adherence, while Prompt A shows slightly higher abstraction at the cost of alignment.
 
 ## Limitations:
 This experiment is based on a single input and a single model, so results should be interpreted as exploratory.
