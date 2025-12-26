@@ -1,23 +1,23 @@
-# Results template
-
-This file defines how results from prompt comparison experiments are recorded.
+# Results – experiment 1
 
 ## Experiment
 Summarization – Prompt A vs Prompt B
 
 ## Model
-(To be filled)
+ChatGPT (web interface)
 
 ## Evaluation summary
 | Criterion           | Prompt A | Prompt B | Notes |
 |---------------------|----------|----------|-------|
-| Clarity             |          |          |       |
-| Factual consistency |          |          |       |
-| Task alignment      |          |          |       |
+| Clarity             | Medium   | High     | Prompt B is more structured |
+| Factual consistency | High     | High     | No hallucinations observed |
+| Task alignment      | Medium   | High     | Prompt B respects constraints |
 
 ## Observations
-Consolidated observations across criteria.
+Prompt B produces a clearer and more controlled summary, with more consistent structure and length across runs, while Prompt A shows higher variability.
+
+## Limitations:
+This experiment is based on a single input and a single model, so results should be interpreted as exploratory.
 
 ## Open questions
-- Are improvements consistent across different inputs?
-- Does increased constraint reduce creativity too much?
+- Would the difference remain consistent with longer texts?
