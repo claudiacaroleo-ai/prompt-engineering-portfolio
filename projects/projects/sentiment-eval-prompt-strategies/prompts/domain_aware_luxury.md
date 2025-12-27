@@ -4,6 +4,10 @@ I use this prompt to evaluate how explicit domain context affects sentiment clas
 
 In this domain, sentiment is often expressed implicitly. Reviews may sound polite or neutral on the surface while still conveying dissatisfaction, especially when expectations around quality, performance, or value are not met.
 
+## Note:
+The model is not expected to infer whether a product is luxury.
+The luxury context is provided explicitly and reflects a known business setting (e.g. reviews from a premium retail channel).
+
 ## Prompt
 
 You are classifying customer sentiment for luxury beauty products.
