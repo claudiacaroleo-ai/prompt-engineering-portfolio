@@ -1,9 +1,11 @@
 # Sentiment eval prompt strategies
 
-Goal: evaluate prompt strategies for binary sentiment classification (positive/negative) on real luxury beauty reviews.
+In this project, I evaluate different prompt strategies for binary sentiment classification (positive vs negative) using real customer reviews from the luxury beauty domain.
+
+The goal is to understand how prompt design choices affect classification quality, reliability, and cost when working with large language models in a realistic business context.
 
 This project focuses on:
-- prompt strategy comparison (baseline vs few-shot vs domain-aware)
-- quantitative metrics (accuracy, confusion matrix)
-- error taxonomy and failure-mode analysis
-- cost–performance trade-offs (tokens vs accuracy)
+- comparing multiple prompt strategies (zero-shot, few-shot, and domain-aware)
+- measuring performance using quantitative metrics such as accuracy and confusion matrices
+- analyzing errors through a structured taxonomy of failure modes
+- examining cost–performance trade-offs, including token usage versus accuracy gains
