@@ -1,15 +1,22 @@
 # Data sources
 
-Primary source:
-- “Sephora Products and Skincare Reviews” dataset on Kaggle (Nady Inky)
-- https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews
+## Primary source
 
-This dataset was collected via Python scraper in March 2023 and contains:
-- information about all beauty products (over 8,000) from the Sephora online store, including product and brand names, prices, ingredients, ratings, and all features.
-- user reviews (about 1 million on over 2,000 products) of all products from the Skincare category, including user appearances, and review ratings by other users
+I use the “Sephora Products and Skincare Reviews” dataset available on Kaggle, created by Nady Inky:
+https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews
 
-License
-- Attribution 4.0 International (CC BY 4.0)
+According to the dataset description, the data was collected via a Python-based scraper in March 2023 and includes:
+- detailed information about more than 8,000 beauty products sold on the Sephora online store (e.g. product and brand names, prices, ingredients, ratings, and product features)
+- approximately 1 million user reviews across more than 2,000 skincare products, including review text, user attributes, and review ratings
 
-What I will use:
-- A small, balanced sample of 100 English reviews (50 positive, 50 negative), derived from rating thresholds.
+## License
+
+The dataset is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+
+## Scope of use
+
+For this project, I work with a small, balanced subset of the dataset:
+- 100 English-language reviews in total
+- 50 positive reviews and 50 negative reviews, selected using rating-based thresholds
+
+This limited sample is sufficient for controlled prompt evaluation while keeping the experiment lightweight, transparent, and reproducible.
