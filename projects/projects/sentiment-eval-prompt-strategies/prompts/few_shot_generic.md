@@ -21,7 +21,7 @@ Review:
 Sentiment: positive
 
 Review:
-"The quality feels cheap and the product stopped working after a few days."
+"The product did not deliver the results I expected and I would not purchase it again."
 Sentiment: negative
 
 Now classify the following review.
