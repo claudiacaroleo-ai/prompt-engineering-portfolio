@@ -191,6 +191,3 @@ Potential future extensions include:
 - cross-model comparison  
 - token cost vs performance analysis  
 - semi-automated inference via API  
----
-
-This project is intentionally designed to demonstrate **systematic thinking, evaluation rigor, and prompt iteration**, rather than one-off prompt crafting.
