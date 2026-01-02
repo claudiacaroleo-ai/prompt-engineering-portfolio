@@ -63,9 +63,6 @@ The output is:
 
 luxury_reviews_100.csv
 
-yaml
-Copy code
-
 This file is versioned and used consistently across all prompt strategies.
 
 ---
@@ -88,9 +85,6 @@ Establish a baseline for sentiment classification without examples.
 Results are recorded in:
 
 results/predictions_zero_shot.csv
-
-yaml
-Copy code
 
 Each row logs:
 
@@ -117,9 +111,6 @@ Observed failure modes include:
 This analysis is documented in:
 
 notes.md
-
-yaml
-Copy code
 
 The goal is not statistical significance, but early signal detection.
 
@@ -154,9 +145,6 @@ File:
 
 prompts/few_shot_failure_aware.md
 
-yaml
-Copy code
-
 Both prompts share the same classification task and output constraints, differing only in example design.
 
 ---
@@ -167,9 +155,6 @@ Predictions for each strategy are logged separately:
 
 results/predictions_few_shots_generic.csv
 results/predictions_few_shots_failure_aware.csv
-
-yaml
-Copy code
 
 This separation enables direct comparison between strategies without ambiguity.
 
