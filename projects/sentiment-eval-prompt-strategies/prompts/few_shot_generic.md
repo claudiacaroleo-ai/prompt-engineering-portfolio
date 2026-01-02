@@ -1,32 +1,36 @@
 # Few-shot generic prompt
 
-I use this prompt to evaluate how a small number of generic examples affects sentiment classification performance, without introducing any domain-specific framing.
+I use this few-shot prompt to help the model better interpret nuanced customer sentiment, based on error patterns observed in the zero-shot baseline.
 
 ## Prompt
 
-Classify the sentiment of the following customer review as either **positive** or **negative**.
+You are classifying customer sentiment based on written product reviews.
 
-Here are some examples:
-
-Review:
-"The product works exactly as described and I am very satisfied with the quality."
-Sentiment: positive
-
-Review:
-"I was disappointed by the performance and would not buy this again."
-Sentiment: negative
-
-Review:
-"Shipping was fast and the item exceeded my expectations."
-Sentiment: positive
-
-Review:
-"The product did not deliver the results I expected and I would not purchase it again."
-Sentiment: negative
-
-Now classify the following review.
+Classify each review as either **positive** or **negative**, considering the overall customer experience and whether expectations were met.
 
 Return only one word: `positive` or `negative`.
 
+### Examples
+
 Review:
+"I absolutely love how this feels and I use it every day."
+Sentiment: positive
+
+Review:
+"The product did not work for me and I regret purchasing it."
+Sentiment: negative
+
+Review:
+"It looks nice and feels pleasant, but I expected much better results."
+Sentiment: negative
+
+Review:
+"The texture is great and the packaging is beautiful, but it didn’t actually improve anything."
+Sentiment: negative
+
+Review:
+"It’s fine, but for the price I expected something more effective."
+Sentiment: negative
+
+### Review to classify:
 {{review_text}}
