@@ -20,17 +20,5 @@ Review:
 "The product did not work for me and I regret purchasing it."
 Sentiment: negative
 
-Review:
-"It looks nice and feels pleasant, but I expected much better results."
-Sentiment: negative
-
-Review:
-"The texture is great and the packaging is beautiful, but it didn’t actually improve anything."
-Sentiment: negative
-
-Review:
-"It’s fine, but for the price I expected something more effective."
-Sentiment: negative
-
 ### Review to classify:
 {{review_text}}
