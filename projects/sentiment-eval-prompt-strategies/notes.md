@@ -52,27 +52,29 @@ I will keep the zero-shot results as a baseline and proceed with more structured
 
 
 
-\## Comparative observations (n=10)
+
+
+\## Comparison snapshot (n=10)
 
 
 
-Across the initial batch of 10 reviews, zero-shot, generic few-shot, and failure-aware few-shot strategies produced identical sentiment classifications.
+Across the first 10 reviews, zero-shot, generic few-shot, and failure-aware few-shot produced identical classifications.
 
 
 
-This suggests that, for this dataset and task, the base model already handles binary sentiment classification reliably, even without examples.
+My takeaway is that this specific binary task may be “low leverage” for prompt tuning: the base model already handles the dominant sentiment correctly on clear review language.
 
 
 
-The absence of differences is itself informative:
+This result is still useful:
 
-\- the zero-shot prompt was sufficiently clear and well-scoped
+\- it validates that the zero-shot baseline prompt is already well-scoped
 
-\- few-shot prompting did not add measurable value at this scale
+\- it prevents unnecessary prompt complexity (no over-engineering)
 
-\- more complex prompt engineering may be unnecessary for this use case
+\- it suggests that improvement will likely appear only on deliberately ambiguous cases (mixed sentiment, expectation mismatch, hedging, subtle dissatisfaction)
 
 
 
-This result highlights an important practical insight: prompt complexity should be justified by observed failure modes and task difficulty, not assumed by default.
+Next, I will run the same comparison on a curated “hard cases” set designed to stress these failure modes.
 
