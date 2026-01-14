@@ -17,3 +17,13 @@ Compared to the baseline, this iteration shows:
 
 However, some ambiguity remains due to the lack of
 explicit positive guidance and structural constraints.
+
+## Comparative notes: iteration 01 vs iteration 02
+
+Compared to iteration 01, this version shows:
+- clearer stylistic direction
+- improved sentence-level consistency
+- reduced ambiguity in tone interpretation
+
+The introduction of a minimal narrative structure
+significantly improves output predictability without over-constraining creativity.
