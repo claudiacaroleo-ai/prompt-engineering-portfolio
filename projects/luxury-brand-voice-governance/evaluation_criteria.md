@@ -50,3 +50,15 @@ with perceived fluency.
 | Stylistic restraint | Absence of exaggeration, clichés, or emotional inflation |
 | Narrative coherence | Logical and tonal consistency across sentences |
 | Instruction adherence | Degree to which prompt constraints are respected |
+
+## Comparative scoring overview
+
+Each iteration is scored qualitatively on a 1–5 scale for each dimension.
+The goal is not numerical precision, but structured comparison.
+
+| Iteration | Tone alignment | Precision | Restraint | Coherence | Adherence |
+|----------|----------------|-----------|-----------|-----------|-----------|
+| Baseline | 2 | 2 | 1 | 2 | 2 |
+| Iteration 01 | 3 | 3 | 3 | 3 | 4 |
+| Iteration 02 | 4 | 4 | 4 | 4 | 4 |
+| Iteration 03 | 4 | 4 | 3 | 4 | 4 |
