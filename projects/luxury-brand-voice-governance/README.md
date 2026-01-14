@@ -1,5 +1,20 @@
 # Luxury brand voice and content governance with LLMs
 
+## Executive summary
+
+This case study explores how prompt engineering can be used to govern
+luxury brand voice and content generation with large language models.
+
+Rather than focusing on creative output, the work emphasizes:
+- predictability over fluency
+- evaluation over intuition
+- governance over stylistic novelty
+
+Through a sequence of controlled prompt iterations,
+the case study demonstrates how explicit constraints,
+structural guidance, and few-shot examples progressively
+improve tonal consistency while introducing new trade-offs.
+
 ## Situation
 Luxury brands rely on highly controlled language, tone, and narrative consistency.
 Even small deviations in style or vocabulary can damage brand perception and trust.
