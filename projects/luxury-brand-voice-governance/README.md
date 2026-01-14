@@ -81,3 +81,20 @@ the desired stylistic behavior.
 Few-shot prompting is used here not to force imitation,
 but to clarify abstract expectations such as “restraint” and “elegance”
 through lived linguistic examples.
+
+## Key lessons learned
+
+- Abstract descriptors such as “elegant” or “refined” are insufficient
+  without operational constraints.
+
+- Negative constraints are effective at removing obvious failure modes
+  but do not provide positive stylistic direction.
+
+- Simple narrative structures significantly improve predictability
+  without over-constraining creative expression.
+
+- Few-shot examples clarify expectations but increase the risk
+  of stylistic convergence.
+
+- Prompt quality must be evaluated across multiple dimensions;
+  no single score captures overall effectiveness.
