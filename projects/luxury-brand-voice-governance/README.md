@@ -48,3 +48,12 @@ The baseline prompt produces fluent output, but reveals several typical issues:
 
 These issues highlight the limits of relying on abstract descriptors
 such as “elegant” or “refined” without operational constraints.
+
+### Shift in strategy: from avoidance to guidance
+
+After reducing obvious failure modes through negative constraints,
+the next step is to actively guide the model toward a desired stylistic behavior.
+
+This iteration introduces explicit positive constraints and a simple narrative structure
+to reduce ambiguity and increase tonal consistency.
+
