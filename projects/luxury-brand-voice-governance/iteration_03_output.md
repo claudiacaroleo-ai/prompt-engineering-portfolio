@@ -26,3 +26,4 @@ Guidelines:
 Our creations are guided by clarity and discipline.
 Nothing is added without purpose, nothing left unresolved.
 Quality reveals itself through balance, proportion, and time.
+
