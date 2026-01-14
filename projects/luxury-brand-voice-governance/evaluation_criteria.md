@@ -62,3 +62,13 @@ The goal is not numerical precision, but structured comparison.
 | Iteration 01 | 3 | 3 | 3 | 3 | 4 |
 | Iteration 02 | 4 | 4 | 4 | 4 | 4 |
 | Iteration 03 | 4 | 4 | 3 | 4 | 4 |
+
+## Interpretation notes
+
+The progression across iterations shows that:
+- negative constraints reduce obvious failure modes
+- positive constraints and structure improve predictability
+- few-shot examples enhance stylistic clarity but introduce convergence risk
+
+This confirms that prompt quality cannot be assessed holistically.
+Each dimension must be evaluated independently to avoid misleading conclusions.
