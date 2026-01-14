@@ -57,3 +57,12 @@ the next step is to actively guide the model toward a desired stylistic behavior
 This iteration introduces explicit positive constraints and a simple narrative structure
 to reduce ambiguity and increase tonal consistency.
 
+### Introducing few-shot prompting as implicit instruction
+
+After establishing tone and structure through explicit constraints,
+the next step is to provide concrete examples that implicitly demonstrate
+the desired stylistic behavior.
+
+Few-shot prompting is used here not to force imitation,
+but to clarify abstract expectations such as “restraint” and “elegance”
+through lived linguistic examples.
