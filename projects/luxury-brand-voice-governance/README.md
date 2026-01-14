@@ -31,3 +31,9 @@ Outputs are assessed along qualitative dimensions such as:
 ## Status
 This case study is currently in progress.
 Experiments, prompt iterations, and evaluation criteria will be added incrementally.
+
+## Baseline experiment
+
+This initial experiment establishes a deliberately simple baseline prompt.
+The goal is not to achieve high-quality output, but to expose typical failure modes
+when prompting for luxury brand content without explicit constraints.
