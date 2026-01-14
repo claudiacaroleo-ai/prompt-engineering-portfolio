@@ -109,3 +109,13 @@ This case study is relevant for contexts where:
 It illustrates how prompt engineering can function
 as a governance and evaluation discipline,
 rather than a purely creative exercise.
+
+## Teaching and advisory perspective
+
+This case study can be used as:
+- a teaching example in AI and prompt engineering courses
+- a workshop exercise for teams working with generative AI
+- a reference framework for evaluating brand-sensitive AI outputs
+
+The emphasis on iteration, evaluation, and documented trade-offs
+makes the approach transferable beyond this specific domain.
