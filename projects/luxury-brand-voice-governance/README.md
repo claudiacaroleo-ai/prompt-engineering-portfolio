@@ -37,3 +37,14 @@ Experiments, prompt iterations, and evaluation criteria will be added incrementa
 This initial experiment establishes a deliberately simple baseline prompt.
 The goal is not to achieve high-quality output, but to expose typical failure modes
 when prompting for luxury brand content without explicit constraints.
+
+### Baseline observations
+
+The baseline prompt produces fluent output, but reveals several typical issues:
+- generic luxury clichés
+- vague elegance without brand specificity
+- lack of narrative restraint
+- inconsistent tone across sentences
+
+These issues highlight the limits of relying on abstract descriptors
+such as “elegant” or “refined” without operational constraints.
