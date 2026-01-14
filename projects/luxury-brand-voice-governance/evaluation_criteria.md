@@ -72,3 +72,11 @@ The progression across iterations shows that:
 
 This confirms that prompt quality cannot be assessed holistically.
 Each dimension must be evaluated independently to avoid misleading conclusions.
+
+## Teaching perspective
+
+This rubric is intentionally simple and transparent.
+It can be used in educational settings to:
+- teach structured prompt evaluation
+- separate subjective taste from functional quality
+- help students articulate *why* one prompt performs better than another
