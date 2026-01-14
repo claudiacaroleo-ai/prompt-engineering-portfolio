@@ -36,3 +36,17 @@ toward the provided examples.
 
 This highlights the trade-off between guidance and originality,
 which must be managed carefully in brand-sensitive contexts.
+
+## Evaluation rubric
+
+The following rubric is used to assess all prompt iterations in this case study.
+Each dimension is evaluated independently to avoid conflating stylistic quality
+with perceived fluency.
+
+| Dimension | Description |
+|---------|-------------|
+| Tone alignment | Consistency with an understated, luxury-appropriate tone |
+| Linguistic precision | Use of precise, controlled language without excess |
+| Stylistic restraint | Absence of exaggeration, clichés, or emotional inflation |
+| Narrative coherence | Logical and tonal consistency across sentences |
+| Instruction adherence | Degree to which prompt constraints are respected |
