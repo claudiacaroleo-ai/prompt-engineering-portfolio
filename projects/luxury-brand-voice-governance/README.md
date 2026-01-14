@@ -98,3 +98,14 @@ through lived linguistic examples.
 
 - Prompt quality must be evaluated across multiple dimensions;
   no single score captures overall effectiveness.
+
+## Why this case study matters
+
+This case study is relevant for contexts where:
+- brand language carries reputational risk
+- consistency matters more than novelty
+- AI outputs must be explainable and reviewable
+
+It illustrates how prompt engineering can function
+as a governance and evaluation discipline,
+rather than a purely creative exercise.
