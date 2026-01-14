@@ -27,3 +27,12 @@ Compared to iteration 01, this version shows:
 
 The introduction of a minimal narrative structure
 significantly improves output predictability without over-constraining creativity.
+
+## Observations on few-shot prompting
+
+The few-shot approach improves stylistic clarity and consistency.
+However, it also introduces the risk of stylistic convergence
+toward the provided examples.
+
+This highlights the trade-off between guidance and originality,
+which must be managed carefully in brand-sensitive contexts.
