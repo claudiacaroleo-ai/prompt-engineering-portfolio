@@ -15,6 +15,18 @@ My background combines:
 ---
 
 ## Repository Purpose
+# Where to start
+
+If you are reviewing this repository for the first time, start here:
+
+- case-studies/luxury-brand-voice-governance  
+  A full, production-shaped case study on tone control, evaluation criteria, and iterative prompt refinement in a high-risk context.
+
+- case-studies/sentiment-eval-prompt-strategies  
+  A structured comparison of prompt strategies using explicit sampling, evaluation protocols, and failure-aware analysis.
+
+- docs/prompt-evaluation-framework.md  
+  The evaluation principles and criteria that guide all case studies in this repository.
 
 The goal of this repository is to demonstrate **hands-on, production-oriented prompt engineering**, focusing on:
 - How prompts are **designed**
@@ -29,11 +41,12 @@ This repository is intentionally **method-driven**, not tool-driven.
 ## Repository Structure
 ```
 prompt-engineering-portfolio/
-|
-├── projects/      # Case studies and experiments (evolving into full analyses)
-├── templates/     # Reusable prompt structures and patterns
-├── assets/        # Supporting materials, charts, and documentation assets
-|
+├── case-studies/     # End-to-end case studies with baselines, iterations, and evaluation
+├── docs/             # Methodological frameworks and teaching-oriented materials
+├── templates/        # Reusable prompt and evaluation templates
+├── tooling/          # Scripts and lightweight pipelines supporting experiments
+├── data/             # Shared datasets (excluding raw or derived data)
+├── archive-notes/    # Exploratory notes and non-portfolio material
 └── README.md
 ```
 
@@ -82,42 +95,11 @@ Planned future work includes:
 
 ---
 
-## Continuous Evolution
+## Positioning and intent
 
-This repository is actively maintained and intentionally iterative.
+This repository reflects a senior-level, method-driven approach to prompt engineering, with a strong focus on evaluation, accountability, and transferability.
 
-It reflects:
-- Ongoing learning
-- Evolving best practices
-- Integration of new models and techniques
+The work is intended for applied AI roles, AI governance and quality assurance, and educational or teaching contexts where LLM outputs have real-world impact.
 
-All changes are documented through commit history and project notes, preserving the reasoning behind each design decision.
-
----
-
-## Background and Positioning
-
-This portfolio is designed to reflect a senior-level approach to prompt engineering.
-
-Rather than positioning prompt engineering as a purely technical skill, the work emphasizes:
-- Clarity of intent
-- Linguistic precision
-- Evaluation rigor
-- Accountability of outputs
-
-This perspective is especially aligned with:
-- Applied AI roles
-- AI governance and quality assurance
-- AI education and teaching contexts
-- Cross-functional environments where AI outputs have real-world impact
-
----
-
-## Contact
-
-If you are interested in:
-- Applied prompt engineering
-- AI evaluation methodologies
-- AI education or teaching collaborations
 
 You can find me here on GitHub or connect with me on LinkedIn.
