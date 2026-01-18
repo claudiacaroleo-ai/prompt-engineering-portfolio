@@ -6,9 +6,10 @@ This case study explores how prompt engineering can be used to govern
 luxury brand voice and content generation with large language models.
 
 Rather than focusing on creative output, the work emphasizes:
-- predictability over fluency
-- evaluation over intuition
-- governance over stylistic novelty
+
+* predictability over fluency
+* evaluation over intuition
+* governance over stylistic novelty
 
 Through a sequence of controlled prompt iterations,
 the case study demonstrates how explicit constraints,
@@ -16,6 +17,7 @@ structural guidance, and few-shot examples progressively
 improve tonal consistency while introducing new trade-offs.
 
 ## Situation
+
 Luxury brands rely on highly controlled language, tone, and narrative consistency.
 Even small deviations in style or vocabulary can damage brand perception and trust.
 
@@ -23,27 +25,34 @@ When using large language models for content generation, outputs may appear flue
 but still violate implicit brand rules in subtle ways.
 
 ## Task
+
 Design and evaluate prompt strategies that:
-- enforce a consistent luxury brand voice
-- reduce stylistic drift and inappropriate tone
-- minimize hallucinations in high-risk brand contexts
-- remain reusable across different content formats
+
+* enforce a consistent luxury brand voice
+* reduce stylistic drift and inappropriate tone
+* minimize hallucinations in high-risk brand contexts
+* remain reusable across different content formats
 
 ## Approach
+
 This case study follows an evaluation-driven prompt engineering process:
-- explicit definition of target behaviors
-- iterative prompt refinement
-- systematic comparison of outputs
-- documentation of failures and edge cases
+
+* explicit definition of target behaviors
+* iterative prompt refinement
+* systematic comparison of outputs
+* documentation of failures and edge cases
 
 ## Evaluation focus
+
 Outputs are assessed along qualitative dimensions such as:
-- tone alignment
-- clarity and precision
-- stylistic consistency
-- instruction adherence
+
+* tone alignment
+* clarity and precision
+* stylistic consistency
+* instruction adherence
 
 ## Status
+
 This case study is currently in progress.
 Experiments, prompt iterations, and evaluation criteria will be added incrementally.
 
@@ -56,10 +65,11 @@ when prompting for luxury brand content without explicit constraints.
 ### Baseline observations
 
 The baseline prompt produces fluent output, but reveals several typical issues:
-- generic luxury clichés
-- vague elegance without brand specificity
-- lack of narrative restraint
-- inconsistent tone across sentences
+
+* generic luxury clichés
+* vague elegance without brand specificity
+* lack of narrative restraint
+* inconsistent tone across sentences
 
 These issues highlight the limits of relying on abstract descriptors
 such as “elegant” or “refined” without operational constraints.
@@ -84,27 +94,24 @@ through lived linguistic examples.
 
 ## Key lessons learned
 
-- Abstract descriptors such as “elegant” or “refined” are insufficient
+* Abstract descriptors such as “elegant” or “refined” are insufficient
   without operational constraints.
-
-- Negative constraints are effective at removing obvious failure modes
+* Negative constraints are effective at removing obvious failure modes
   but do not provide positive stylistic direction.
-
-- Simple narrative structures significantly improve predictability
+* Simple narrative structures significantly improve predictability
   without over-constraining creative expression.
-
-- Few-shot examples clarify expectations but increase the risk
+* Few-shot examples clarify expectations but increase the risk
   of stylistic convergence.
-
-- Prompt quality must be evaluated across multiple dimensions;
+* Prompt quality must be evaluated across multiple dimensions;
   no single score captures overall effectiveness.
 
 ## Why this case study matters
 
 This case study is relevant for contexts where:
-- brand language carries reputational risk
-- consistency matters more than novelty
-- AI outputs must be explainable and reviewable
+
+* brand language carries reputational risk
+* consistency matters more than novelty
+* AI outputs must be explainable and reviewable
 
 It illustrates how prompt engineering can function
 as a governance and evaluation discipline,
@@ -113,9 +120,29 @@ rather than a purely creative exercise.
 ## Teaching and advisory perspective
 
 This case study can be used as:
-- a teaching example in AI and prompt engineering courses
-- a workshop exercise for teams working with generative AI
-- a reference framework for evaluating brand-sensitive AI outputs
+
+* a teaching example in AI and prompt engineering courses
+* a workshop exercise for teams working with generative AI
+* a reference framework for evaluating brand-sensitive AI outputs
 
 The emphasis on iteration, evaluation, and documented trade-offs
 makes the approach transferable beyond this specific domain.
+
+
+
+\## Follow-ups and planned experiments
+
+
+
+After sharing this case study, I collected feedback that points to two natural extensions:
+
+\- cross-model comparison (same rubric, same workflow)
+
+\- context/memory effects (does the final prompt work in isolation?)
+
+
+
+See: \[future-experiments.md](future-experiments.md)
+
+
+
