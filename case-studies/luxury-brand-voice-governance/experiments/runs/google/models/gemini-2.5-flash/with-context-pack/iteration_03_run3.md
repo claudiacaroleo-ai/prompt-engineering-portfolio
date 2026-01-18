@@ -1,0 +1,1 @@
+Value resides in what endures, not what impresses. Our work reflects a quiet dedication, understood by those who seek lasting quality.

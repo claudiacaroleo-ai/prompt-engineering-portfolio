@@ -1,0 +1,1 @@
+Enduring quality is rarely visible at first glance. It resides in the considered choice of materials, the deliberate refinement of form, and the silent integrity of its making.

@@ -1,0 +1,1 @@
+"Crafted with intention, our pieces embody a commitment to timeless design. Each element is thoughtfully considered, reflecting a dedication to quality that transcends fleeting moments."

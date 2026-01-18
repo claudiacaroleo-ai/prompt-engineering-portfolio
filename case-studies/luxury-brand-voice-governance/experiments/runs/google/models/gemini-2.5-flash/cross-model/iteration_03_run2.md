@@ -1,0 +1,1 @@
+Some qualities do not demand attention. They are simply felt, the result of a deliberate process, discerning choices, and an uncompromising respect for provenance.

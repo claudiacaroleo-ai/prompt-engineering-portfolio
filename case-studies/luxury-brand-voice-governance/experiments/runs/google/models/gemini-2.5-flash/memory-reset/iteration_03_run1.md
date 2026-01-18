@@ -1,0 +1,1 @@
+True discernment recognizes value beyond immediate impression. We honor the rare and the refined, crafting only what merits careful consideration and withstands the test of time.
