@@ -1,0 +1,2 @@
+"We create objects that reward attention.
+Each one is the result of considered choices, careful hands, and materials chosen to endure. What we make is meant to last—not because we claim it, but because of how it's built."

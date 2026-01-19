@@ -1,0 +1,21 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "condition": "cross-model",
+  "prompt_version": "baseline",
+  "run_id": 3,
+  "timestamp": "2026-01-18_192704",
+  "request": {
+    "model": "gpt-4o-mini",
+    "input": [
+      {
+        "role": "system",
+        "content": "You are a brand voice assistant for a luxury brand. Follow the user's instructions precisely."
+      },
+      {
+        "role": "user",
+        "content": "## Baseline prompt\n\nWrite a short promotional text for a luxury brand.\nThe tone should be elegant and refined.\n"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+date,provider,model,condition,prompt_version,run_id,tone_alignment,avoid_cliches,brand_language,instruction_following,total,notes
+2026-01-18,google,models/gemini-2.5-flash,cross-model,baseline,1,1,0,1,2,4,"good mood but very generic luxury; tagline feels stock"
+2026-01-18,google,models/gemini-2.5-flash,cross-model,baseline,2,1,0,1,2,4,"clean structure; still 'heritage/whisper/elevated living' template"
+2026-01-18,google,models/gemini-2.5-flash,cross-model,baseline,3,2,1,1,2,6,"best: gives options; still some clichés but more controllable"
+2026-01-18,google,models/gemini-2.5-flash,cross-model,iteration_03,1,2,2,2,2,8,"controlled tone; implicit luxury; no advertising clichés"
+2026-01-18,google,models/gemini-2.5-flash,cross-model,iteration_03,2,2,2,2,2,8,"strong restraint; best governance-style output"
+2026-01-18,google,models/gemini-2.5-flash,cross-model,iteration_03,3,2,2,2,2,8,"clear brand stance; slightly more declarative"

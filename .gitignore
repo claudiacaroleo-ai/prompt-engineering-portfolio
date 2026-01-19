@@ -211,3 +211,9 @@ projects/sentiment-eval-prompt-strategies/data/raw/
 
 # Optional: keep curated data tracked
 # projects/sentiment-eval-prompt-strategies/data/curated/
+
+# Ignore raw data (derived or large)
+case-studies/sentiment-eval-prompt-strategies/data/raw/
+
+case-studies/**/data/raw/
+

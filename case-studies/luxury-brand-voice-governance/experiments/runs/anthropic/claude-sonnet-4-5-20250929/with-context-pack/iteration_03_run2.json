@@ -1,0 +1,24 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-5-20250929",
+  "condition": "with-context-pack",
+  "prompt_version": "iteration_03",
+  "run_id": 2,
+  "timestamp": "2026-01-18_193510",
+  "request": {
+    "model": "claude-sonnet-4-5-20250929",
+    "max_tokens": 900,
+    "system": "You are a brand voice assistant for a luxury brand. Follow the user's instructions precisely.",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Context pack (constraints refined during iterations):\n- Avoid marketing clich\u00e9s.\n- Keep tone controlled and understated.\n- Prefer concrete language over hype.\n- Do not overpromise.\n\n## Iteration 03 prompt\n\nBelow are examples of short promotional texts that reflect\nan understated luxury brand voice.\n\nExample 1:\n\"Our work is defined by precision, patience, and respect for materials.\nEvery detail exists for a reason, shaped over time rather than trend.\"\n\nExample 2:\n\"True refinement is never rushed.\nIt emerges quietly through craftsmanship, consistency, and intent.\"\n\nNow write a short promotional text for a luxury brand\nthat follows the same tone and level of restraint.\n\nGuidelines:\n- calm, confident, and precise language\n- no emotional exaggeration\n- no marketing buzzwords\n- subtle sense of exclusivity\n"
+          }
+        ]
+      }
+    ]
+  }
+}

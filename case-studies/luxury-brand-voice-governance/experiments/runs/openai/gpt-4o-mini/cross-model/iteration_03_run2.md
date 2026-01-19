@@ -1,0 +1,1 @@
+"Crafted for those who appreciate the subtlety of form and function. Each piece reflects a commitment to timeless quality, shaped by discerning hands and a dedication to authenticity."

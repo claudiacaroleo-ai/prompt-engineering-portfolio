@@ -1,0 +1,19 @@
+{
+  "provider": "google",
+  "model": "models/gemini-2.5-flash",
+  "condition": "cross-model",
+  "prompt_version": "iteration_03",
+  "run_id": 1,
+  "timestamp": "2026-01-18_193346",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "## Iteration 03 prompt\n\nBelow are examples of short promotional texts that reflect\nan understated luxury brand voice.\n\nExample 1:\n\"Our work is defined by precision, patience, and respect for materials.\nEvery detail exists for a reason, shaped over time rather than trend.\"\n\nExample 2:\n\"True refinement is never rushed.\nIt emerges quietly through craftsmanship, consistency, and intent.\"\n\nNow write a short promotional text for a luxury brand\nthat follows the same tone and level of restraint.\n\nGuidelines:\n- calm, confident, and precise language\n- no emotional exaggeration\n- no marketing buzzwords\n- subtle sense of exclusivity\n"
+          }
+        ]
+      }
+    ]
+  }
+}

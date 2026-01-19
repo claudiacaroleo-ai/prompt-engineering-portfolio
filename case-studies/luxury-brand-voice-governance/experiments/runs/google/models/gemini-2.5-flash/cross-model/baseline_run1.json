@@ -1,0 +1,19 @@
+{
+  "provider": "google",
+  "model": "models/gemini-2.5-flash",
+  "condition": "cross-model",
+  "prompt_version": "baseline",
+  "run_id": 1,
+  "timestamp": "2026-01-18_193312",
+  "request": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "## Baseline prompt\n\nWrite a short promotional text for a luxury brand.\nThe tone should be elegant and refined.\n"
+          }
+        ]
+      }
+    ]
+  }
+}
