@@ -2,7 +2,7 @@
 
 **Evaluation · Iteration · Documentation**
 
-This repository documents my work in **prompt engineering** with a strong emphasis on **evaluation methodologies, iterative design, and rigorous documentation**.
+This repository documents a senior, method-driven approach to prompt engineering, focused on **evaluation**, **governance**, and **controllability* of **LLM outputs** in **high-risk contexts**.
 
 It is not a collection of isolated prompts, but a structured, evolving body of work that reflects a **systematic approach to guiding large language models** toward reliable, controllable, and high-quality outputs.
 
@@ -17,7 +17,8 @@ My background combines:
 ---
 
 ## Repository Purpose
-# Where to start
+
+### Where to start
 
 If you are reviewing this repository for the first time, start here:
 
@@ -67,7 +68,9 @@ prompt-engineering-portfolio/
 └── README.md
 ```
 
-Some folders currently contain exploratory work. These materials will progressively evolve into formal case studies with full documentation, evaluation criteria, and structured learnings.
+Some folders intentionally contain exploratory or intermediate work.
+These materials are preserved to document decision-making, failure modes, and trade-offs rather than only final outputs.
+
 
 ---
 
