@@ -6,6 +6,8 @@ This repository documents my work in **prompt engineering** with a strong emphas
 
 It is not a collection of isolated prompts, but a structured, evolving body of work that reflects a **systematic approach to guiding large language models** toward reliable, controllable, and high-quality outputs.
 
+The repository treats prompt engineering as a **governance and evaluation discipline**: prompts are designed, tested, compared, and reasoned about as first-class artifacts, not as creative inputs or one-off tricks.
+
 My background combines:
 - Senior experience in strategy, communication, and content design
 - A master's degree in data analytics
@@ -20,7 +22,7 @@ My background combines:
 If you are reviewing this repository for the first time, start here:
 
 - case-studies/luxury-brand-voice-governance  
-  A full, production-shaped case study on tone control, evaluation criteria, and iterative prompt refinement in a high-risk context.
+  A full, production-shaped case study on tone control, evaluation criteria, iterative prompt refinement, and **LLM output governance** in a high-risk brand context.
 
 - case-studies/sentiment-eval-prompt-strategies  
   A structured comparison of prompt strategies using explicit sampling, evaluation protocols, and failure-aware analysis.
@@ -35,6 +37,21 @@ The goal of this repository is to demonstrate **hands-on, production-oriented pr
 - How insights are **generalized into reusable patterns**
 
 This repository is intentionally **method-driven**, not tool-driven.
+
+---
+## How to read this repository
+This repository is designed to support different levels of review:
+
+- **Quick scan (5 minutes)**  
+  Read the repository purpose, current focus areas, and one full case study.
+
+- **Technical review (15–30 minutes)**  
+  Focus on the luxury brand voice case study, evaluation criteria, and experimental extensions.
+
+- **Deep dive / teaching use**  
+  Explore raw experiment outputs, documented failures, and reasoning sections inside case studies.
+
+All materials are intentionally documented to make design decisions, trade-offs, and limitations explicit.
 
 ---
 
@@ -55,8 +72,8 @@ Some folders currently contain exploratory work. These materials will progressiv
 ---
 
 ## Methodological Principles
+Across all projects, I apply a consistent and explicit methodology focused on evaluation, iteration, and output governance.
 
-Across all projects, I apply a consistent and explicit methodology.
 
 ### Explicit Objectives
 Each prompt is designed with a clearly defined target behavior before experimentation begins (e.g., tone, factual accuracy, structure, constraints).
