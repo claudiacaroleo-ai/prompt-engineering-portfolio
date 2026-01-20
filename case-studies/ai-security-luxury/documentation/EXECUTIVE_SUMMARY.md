@@ -246,8 +246,6 @@ Implementing this framework positions the organization as:
 
 ---
 
-## 📞 Next Steps
-
 ### For Leadership
 
 1. **Review this assessment** (15 minutes)
@@ -261,8 +259,6 @@ Implementing this framework positions the organization as:
 2. **Run tests against current AI systems** (use provided framework)
 3. **Implement defense controls** (prompts, filters, monitoring)
 4. **Report findings** to leadership monthly
-
-### For HR/Recruiting
 
 **This case study demonstrates**:
 - Strategic thinking (business risk → technical solution)
