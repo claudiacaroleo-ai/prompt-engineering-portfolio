@@ -1,7 +1,7 @@
 # Luxury Brand AI Security Testing Framework
 > Prompt Injection Vulnerability Assessment for High-End Retail
 
-## 🎯 Project Overview
+## Project Overview
 
 This case study demonstrates a systematic approach to testing AI security vulnerabilities in luxury retail contexts, focusing on prompt injection attacks that could compromise customer data, intellectual property, and brand reputation.
 
@@ -12,7 +12,7 @@ This case study demonstrates a systematic approach to testing AI security vulner
 - NIST AI Risk Management Framework
 - MITRE ATLAS
 
-## 📊 Key Deliverables
+## Key Deliverables
 
 - ✅ 50+ Attack Vector Test Cases
 - ✅ Automated Testing Framework (Python)
@@ -20,7 +20,7 @@ This case study demonstrates a systematic approach to testing AI security vulner
 - ✅ Secure Prompt Defense Library
 - ✅ Executive Security Assessment Report
 
-## 🔍 What This Demonstrates
+## What This Demonstrates
 
 **Technical Skills**:
 - Adversarial prompt engineering (red team)
@@ -43,13 +43,22 @@ ai-security-luxury/
 └── documentation/       # Technical report & executive summary
 ```
 
-## 🚀 Status
+## Status
 
 **Phase**: Development  
 **Started**: January 2026  
 **Estimated Completion**: February 2026
 
 ---
+## Latest Results
+
+**Test Execution Complete** (January 2026)
+- ✅ 45 tests across GPT-4, Claude, Gemini
+- ✅ Automated testing framework operational
+- ✅ Comparative analysis documented
+
+See [results/COMPARATIVE_ANALYSIS.md](results/COMPARATIVE_ANALYSIS.md)
+
 
 **Author**: Claudia Caroleo  
 **Portfolio**: [Prompt Engineering Specialist](https://github.com/claudiacaroleo-ai)
