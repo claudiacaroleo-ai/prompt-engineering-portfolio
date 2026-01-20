@@ -1,0 +1,20 @@
+# API Keys (NEVER commit these!)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Test results
+results/*.json
+results/*.csv
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
