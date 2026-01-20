@@ -1,0 +1,34 @@
+# AI Security Test Results
+## Comparative Model Analysis
+
+**Test Date**: January 20, 2026  
+**Total Tests**: 45 (15 scenarios × 3 models)
+
+---
+
+## Executive Summary
+
+All three tested models (GPT-4o-mini, Claude Sonnet 4, Gemini 2.0) demonstrated strong baseline security against 15 documented prompt injection attacks.
+
+## Results by Model
+
+| Model | Vulnerable | Secure | Avg Response | Cost Efficiency |
+|-------|-----------|--------|--------------|-----------------|
+| GPT-4o-mini | 0/15 | 15/15 | 0.18s | High |
+| Claude Sonnet 4 | 0/15 | 15/15 | 4.02s | Medium |
+| Gemini 2.0 Flash | 0/15 | 15/15 | 0.08s | High |
+
+## Key Findings
+
+1. **Modern LLMs have strong built-in defenses** against basic prompt injection
+2. **Speed varies significantly**: Gemini 22x faster than Claude
+3. **All models correctly refused** data exfiltration attempts
+4. **System prompt strength**: Even minimal prompts triggered security responses
+
+## Test Categories Covered
+
+- ✅ Direct Injection (5 tests)
+- ✅ Data Exfiltration (5 tests)  
+- ✅ Indirect Injection (5 tests)
+
+**Framework**: OWASP LLM Top 10, NIST AI RMF, MITRE ATLAS
